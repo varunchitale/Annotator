@@ -1,0 +1,10 @@
+Copying files over SSH using SCP
+
+0. Log into server
+	change permission of folder that you want to copy into by:
+	chown username folder
+
+
+1. 
+scp -i key(400 permission) source destination
+
